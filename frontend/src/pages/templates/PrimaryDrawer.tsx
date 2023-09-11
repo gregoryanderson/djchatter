@@ -38,7 +38,7 @@ const PrimaryDrawer = () => {
       "& .MuiDrawer-paper": openedMixin(),
     }),
     ...(!open && {
-      ...closedMixin(),
+      ...closedMixin(), 
       "& .MuiDrawer-paper": closedMixin(),
     }),
   }));
